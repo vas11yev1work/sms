@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', () => {
     // тут app_id приложения
     // регистрируешься на сайте sms.ru, и в личном кабинете находишь свой app_id
     const APP_ID = `8BF8B9CC-0ACB-2F15-BDC9-7B616FBF0BF4`
-    const URL = `https://sms.ru/sms/send?api_id=${APP_ID}&to=${TO_NUMBER}&msg=hello+world&json=1`
+    const URL = `https://sms.ru/sms/send?api_id=${APP_ID}&to=${TO_NUMBER}&json=1`
 
     const sendMessage = async (name, phone) => {
         // тут просто строка с сообщением
